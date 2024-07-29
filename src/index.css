@@ -1,0 +1,35 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #005954;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+button {
+  border: 1px solid #2dad3c;
+  background: #2dad3c;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: .4s;
+}
+
+button:hover {
+  border: 1px solid #007100;
+  background: #007100;
+}
+
+h2 {
+  color: white;
+}
+
+
+

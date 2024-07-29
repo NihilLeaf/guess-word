@@ -1,0 +1,60 @@
+
+.wordsContainer  {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.blockForLetter {
+  width: 50px;
+  height: 50px;
+  background-color: #385d2b;
+  padding: 16px;
+  border: 2px solid #009929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+} 
+
+.wrongLetters {
+  margin-top: 32px;
+  color: white;
+}
+
+.categoryTitle {
+  color: white;
+  margin: 24px 0;
+}
+
+.pointAndGuesses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.categorySelected {
+  text-transform: capitalize;
+  color: yellow;
+}
+
+.guessContainer {
+  padding: 12px;;
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.guessContainer input {
+  height: 50px;
+  width: 50px;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
