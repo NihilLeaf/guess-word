@@ -74,12 +74,6 @@ const MainGame = ({
           <span key={i}>{l}, </span>
         ))}
       </div>
-
-      <button
-        style={{ marginTop: '50px' }}
-        onClick={verifyLetter}>
-        End game
-      </button>
     </>
   );
 };
